@@ -185,6 +185,12 @@ ul {
 .hero-img {
   width: 80%;
   max-width: 480px;
+  animation: hover 2s alternate-reverse infinite;
+}
+@keyframes hover {
+  from {
+    transform: translateY(-20px);
+  }
 }
 
 /* -------------- */
