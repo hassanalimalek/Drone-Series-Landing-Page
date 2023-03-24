@@ -173,7 +173,8 @@ ul {
 }
 .hero-title {
   font-size: clamp(3rem, -0.875rem + 8.333vw, 6rem);
-  line-height: 5rem;
+  line-height: clamp(3rem, -0.875rem + 8.333vw, 5rem);
+
   margin-bottom: 1.4rem;
 }
 .hero-description {
@@ -288,7 +289,6 @@ ul {
 
 /* Registration form */
 .registration-form {
-  /* max-width: 420px; */
   width: 90%;
   margin-right: auto;
   margin-bottom: 3rem;
