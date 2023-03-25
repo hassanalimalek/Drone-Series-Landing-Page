@@ -261,6 +261,7 @@ ul {
   height: 100%;
 }
 .drone-image-col img {
+  aspect-ratio: 1 / 1;
   height: 100%;
   width: 100%;
 }
